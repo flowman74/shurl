@@ -6,8 +6,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "removeComments": true,
-    "outDir": "dist"
+    "removeComments": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
