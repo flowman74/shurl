@@ -2,7 +2,8 @@
   "name": "shurl",
   "version": "0.1.0",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "ejs": "^3.1.6",
