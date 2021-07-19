@@ -1,8 +1,7 @@
 import fs from 'fs'
 
 const json = (file: string) => {
-  const filePath = fs.readFileSync(file)
-  const fileContent = JSON.parse(filePath.toString())
+  const fileContent = JSON.parse(fs.readFileSync(file).toString())
   return {
     set: (key: string, value: string) => {
       fileContent[key] = value
