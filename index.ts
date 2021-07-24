@@ -26,4 +26,6 @@ app.get('*', (_req, res) => {
   res.render('404')
 })
 
-app.listen(port)
+app.listen(port, () => {
+  console.log(`listening on *:${port})`)
+})
