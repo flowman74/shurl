@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "nodemon index.ts",
-    "run": "tsc && node index.js"
+    "build": "tsc"
   },
   "dependencies": {
     "ejs": "^3.1.6",
